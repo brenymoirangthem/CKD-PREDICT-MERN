@@ -1,0 +1,19 @@
+# Node.js
+node_modules/
+
+# Python
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Environment secrets
+.env
+.env.*
+!.env.example
+
+# Build files
+dist/
+
+# Local database
+ml/ckd.db
