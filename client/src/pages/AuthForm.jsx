@@ -13,6 +13,7 @@ export default function AuthForm({ mode }) {
   const [busy, setBusy] = useState(false);
   const set = (k) => (e) => setF({ ...f, [k]: e.target.value });
 
+
   const submit = async (e) => {
     e.preventDefault(); setBusy(true);
     try { await (isSignup ? signup(f) : login(f)); nav('/'); }
@@ -25,7 +26,7 @@ export default function AuthForm({ mode }) {
       <div className="w-full max-w-md">
         <div className="mb-6 text-center">
           <Activity className="mx-auto mb-2 h-10 w-10 text-teal-400" />
-          <h1 className="text-3xl font-bold">CKD-PREDICT</h1>
+          <h1 className="text-3xl font-bold">NephroAI</h1>
           <p className="mt-1 text-sm text-slate-400">AI-powered early kidney disease risk screening</p>
         </div>
         <form onSubmit={submit} className="card space-y-4">

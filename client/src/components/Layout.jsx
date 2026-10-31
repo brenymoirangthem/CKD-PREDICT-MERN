@@ -33,7 +33,7 @@ return ( <div className="min-h-screen"> <header className="sticky top-0 z-50 bor
         className="flex items-center gap-2 text-lg font-bold"
       >
         <Activity className="text-teal-400" />
-        <span>CKD-PREDICT</span>
+        <span>NephroAI</span>
       </Link>
 
       {/* Desktop Navigation */}

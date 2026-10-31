@@ -9,6 +9,8 @@ import { fileURLToPath } from 'url';
 import authRoutes from './routes/auth.js';
 import predictionRoutes from './routes/predictions.js';
 import modelRoutes from './routes/model.js';
+import dns from 'node:dns';
+dns.setServers(['8.8.8.8', '8.8.4.4']);
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const app = express();

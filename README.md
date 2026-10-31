@@ -1,10 +1,10 @@
-# CKD-PREDICT: AI Chronic Kidney Disease Screening (MERN + Python ML)
+# NephroAI – AI-Powered Chronic Kidney Disease Risk Prediction System
 
 Full-stack app: **React + Tailwind** frontend, **Node/Express + MongoDB** API with **JWT (HTTP-only cookie)** auth,
 a **scikit-learn** model served through a Python bridge, optional **Google Gemini** plain-language summaries, and PDF reports.
 
 ```
-ckd-predict-mern/
+NephroAI-mern/
   ml/       Python: train.py (train/tune/compare), predict.py (bridge used by Node), common.py
   server/   Express API: auth, predictions CRUD/search/stats, PDF report, model metrics
   client/   React (Vite) UI: login/signup, dashboard, screening form, result page, patients, model page

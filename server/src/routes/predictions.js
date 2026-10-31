@@ -127,7 +127,7 @@ function pageHeader(subtitle) {
   pdf.fillColor('#ffffff')
     .font('Helvetica-Bold')
     .fontSize(23)
-    .text('CKD-PREDICT', LEFT, 25);
+    .text('NephroAI', LEFT, 25);
 
   pdf.font('Helvetica')
     .fontSize(11)
@@ -152,7 +152,7 @@ function pageFooter(page) {
     .font('Helvetica')
     .fontSize(8)
     .text(
-      'CKD-PREDICT | Research Prototype',
+      'NephroAI | Research Prototype',
       LEFT,
       780,
       { lineBreak: false }
